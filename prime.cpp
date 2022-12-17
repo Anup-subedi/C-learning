@@ -15,9 +15,9 @@ int main()
    for(i=1; i<=n/2; i++) //taking n/2 since, the number doesn't have any factors after it surpass n/2.
    {
        if (n%i==0)
-       {count++;}
+       {count++;} //increase count as soon as the number is divisible by any number from i to n/2
        
-       if (count==2) 
+       if (count==2)
        {break;}
    }
     
