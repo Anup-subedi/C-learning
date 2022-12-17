@@ -9,10 +9,10 @@ int main()
     
     if (n==1 || n=0) //seperate condition for 0 and 1 as they are neither composite nor prime.
         cout << n <<" is neither composite nor prime"; 
-    if (n==2) //
+    if (n==2) // checking conditioin for 2 seperately as the below logic doesn't apply for 2 and printout composite.
         cout << n <<" is prime";
     
-   for(i=1; i<=n/2; i++)
+   for(i=1; i<=n/2; i++) //taking n/2 since, the number doesn't have any factors after it surpass n/2.
    {
        if (n%i==0)
        {count++;}
