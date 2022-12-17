@@ -18,7 +18,7 @@ int main()
        {count++;} //increase count as soon as the number is divisible by any number from i to n/2
        
        if (count==2)
-       {break;}
+       {break;} //loop exits from here if the condition meets
    }
     
     cout << i << "- times the iterations are done"; //checking the number of iterations
