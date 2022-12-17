@@ -1,15 +1,15 @@
-#include <iostream>
+#include <iostream> //library for input output
 using namespace std;
 
 int main()
 {
-    int i, n, count=0;
+    int i, n, count=0; //declaring variables
     cout << "Enter any positive number: ";
-    cin >> n;
+    cin >> n; //taking input from the user
     
-    if (n==1 || n=0)
-        cout << n <<" is neither composite nor prime";
-    if (n==2)
+    if (n==1 || n=0) //seperate condition for 0 and 1 as they are neither composite nor prime.
+        cout << n <<" is neither composite nor prime"; 
+    if (n==2) //
         cout << n <<" is prime";
     
    for(i=1; i<=n/2; i++)
